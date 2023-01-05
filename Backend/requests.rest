@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos HTTP/1.1
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+	"text": "Order book"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63b5144f1e3f5463e13c777f
+###
+
+###
+
+PUT http://localhost:3001/todo/complete/63b514241e3f5463e13c777d
